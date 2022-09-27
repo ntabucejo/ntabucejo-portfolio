@@ -24,7 +24,12 @@ const Home = () => {
       <section className="space-y-40">
         <div className="laptop:flex laptop:items-center gap-4 space-y-6">
           <div className="relative h-40 laptop:w-[1500px] w-80 rounded overflow-hidden">
-            <Image src="/twitter-clone.png" layout="fill" objectFit="contain" />
+            <Image
+              alt="image"
+              src="/twitter-clone.png"
+              layout="fill"
+              objectFit="contain"
+            />
           </div>
           <div className="space-y-10">
             <h2 className="text-2xl font-semibold">
@@ -54,6 +59,7 @@ const Home = () => {
         <div className="laptop:flex laptop:items-center gap-4 space-y-6">
           <div className="relative h-40 laptop:w-[1500px] w-80 rounded overflow-hidden  laptop:hidden">
             <Image
+              alt="image"
               src="/instagram-clone.png"
               layout="fill"
               objectFit="contain"
@@ -85,6 +91,7 @@ const Home = () => {
           </div>
           <div className="relative h-40 laptop:w-[1500px] w-80 rounded overflow-hidden hidden laptop:block">
             <Image
+              alt="image"
               src="/instagram-clone.png"
               layout="fill"
               objectFit="contain"
@@ -94,6 +101,7 @@ const Home = () => {
         <div className="laptop:flex laptop:items-center gap-4 space-y-6">
           <div className="relative h-40 laptop:w-[1500px] w-80 rounded overflow-hidden">
             <Image
+              alt="image"
               src="/unsplash-clone.png"
               layout="fill"
               objectFit="contain"

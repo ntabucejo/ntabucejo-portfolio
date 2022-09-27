@@ -9,9 +9,7 @@ interface Props {
 const Path = ({ text, to }: Props) => {
   return (
     <li>
-      <Link href={to}>
-        <a>{text}</a>
-      </Link>
+      <Link href={to}>{text}</Link>
     </li>
   );
 };
