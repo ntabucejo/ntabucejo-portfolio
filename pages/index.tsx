@@ -118,7 +118,7 @@ const Home = () => {
           </div>
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold">
-              <a href="https://twitter-clone-brd0siwl3-ntabucejo.vercel.app/">
+              <a href="https://orbitz-h7so2cwdd-ntabucejo.vercel.app/">
                 Orbitz
               </a>
             </h2>
